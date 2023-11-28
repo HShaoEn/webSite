@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\mainbox",
+    "\\src\\router",
+    "\\src\\store",
+    "\\src\\views",
+    "\\src\\views\\notfound",
+    "\\src\\views\\product-manage"
+  ],
+  "PreviewInSolutionExplorer": false
+}
