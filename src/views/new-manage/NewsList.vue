@@ -130,7 +130,7 @@
 
     // 格式化分類
     const categoryFormat = (category) => {
-        const arr = ["first", "two", 'three']
+        const arr = ["Front", "Backend", 'Database']
         return arr[category - 1]
     }
     // 控制發布回調

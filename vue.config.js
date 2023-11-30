@@ -13,7 +13,9 @@ module.exports = defineConfig({
         client: {
             overlay: false
         },
-        publicPath: ''
+        allowedHosts: process.env.NODE_ENV === 'production'
+            ? 'https://your-production-domain/'
+            : 'http://localhost:8080/'
     }
     })
 

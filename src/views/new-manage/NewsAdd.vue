@@ -97,15 +97,15 @@
     })
     const options = [
         {
-            label: "fisrt",
+            label: "Front",
             value: 1
         },
         {
-            label: "two",
+            label: "Backend",
             value: 2
         },
         {
-            label: "three",
+            label: "Database",
             value: 3
         }
     ]
