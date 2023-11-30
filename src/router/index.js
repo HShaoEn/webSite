@@ -21,8 +21,9 @@ const routes = [
 ]
 //process.env.BASE_URL
 const router = createRouter({
-  history: createWebHashHistory(process.env.BASE_URL),
-  routes
+  // history: createWebHashHistory(process.env.BASE_URL),
+    history: createWebHashHistory(),
+    routes
 })
 
 // 路由攔截 每次路由跳轉之前都會執行 方便權限管理
